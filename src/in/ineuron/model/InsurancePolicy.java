@@ -14,6 +14,8 @@ import javax.persistence.Id;
  * 
  * @author Sowmya Peddi
  * 
+ Caching :
+ =======
  * Its temporary memory that holds the data for temporarily.
    Cache at client side will hold server data and uses it across the multiple same requests to reduce the network calls between client(Java Application) and server(DB).
    Hibernate supports 2 levels of caching 
